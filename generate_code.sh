@@ -1,6 +1,6 @@
 if [ ! -f "Cargo.toml" ]; then
     docker run --rm -v ${PWD}:/local swaggerapi/swagger-codegen-cli generate \
-        -i https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/specification/servicefabric/data-plane/Microsoft.ServiceFabric/stable/8.2/servicefabric.json \
+        -i https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/servicefabric/data-plane/Microsoft.ServiceFabric/stable/8.0/servicefabric.json \
         -l rust \
         -o /local
 fi
