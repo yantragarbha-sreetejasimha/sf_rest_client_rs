@@ -2,5 +2,4 @@
 **/*.rs.bk
 Cargo.lock
 .swagger-codegen-ignore
-git_push.sh
-```
+./git_push.sh
