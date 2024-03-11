@@ -1,0 +1,6 @@
+/target/
+**/*.rs.bk
+Cargo.lock
+.swagger-codegen-ignore
+git_push.sh
+```
